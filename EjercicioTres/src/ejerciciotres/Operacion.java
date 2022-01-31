@@ -14,7 +14,8 @@ import java.util.Scanner;
  */
 public class Operacion {
 
-    private double numero1, numero2;
+    private double numero1;
+    private double numero2;
 
     public Operacion() {
     }

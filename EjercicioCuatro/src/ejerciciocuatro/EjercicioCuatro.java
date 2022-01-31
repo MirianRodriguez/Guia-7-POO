@@ -3,28 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejerciciouno;
-
-import java.util.Locale;
-import java.util.Scanner;
+package ejerciciocuatro;
 
 /**
  *
  * @author mirod
  */
-public class EjercicioUno {
+public class EjercicioCuatro {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Libro libro = new Libro();
-          
-        libro.llenarLibro();
-        
-        libro.mostrarLibro();
-        
+        Rectangulo rectangulo = new Rectangulo();
+        rectangulo.crearRectangulo();
+        rectangulo.calcularSuperficie();
+        rectangulo.calcularPerimetro();
+        rectangulo.dibujarRectangulo();
     }
-    
     
 }
