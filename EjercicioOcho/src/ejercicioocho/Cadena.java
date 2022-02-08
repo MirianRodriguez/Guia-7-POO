@@ -64,7 +64,7 @@ public class Cadena {
 
     public void invertirFrase() {
 
-        int contInvertido = frase.length();
+        //int contInvertido = frase.length();
         String fraseInvertida = "";
 
         for (int i = frase.length() - 1; i >= 0; i--) {
