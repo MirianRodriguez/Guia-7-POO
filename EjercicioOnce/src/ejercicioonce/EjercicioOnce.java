@@ -38,7 +38,7 @@ public class EjercicioOnce {
         
         long anioEnMiliseg = 31536000000L;
         
-        double anios = diferenciaMilisegundos / anioEnMiliseg;
+        long anios = diferenciaMilisegundos / anioEnMiliseg;
         
         System.out.println(diferenciaMilisegundos);
         System.out.println("anios" + anios);
